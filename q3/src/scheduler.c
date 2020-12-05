@@ -89,7 +89,6 @@ void *simpleRobotRoutine(void *arg) {
         continue;
       }
       if((front==2||front==3||front==4) && (a!= 0)){
-        printf("hi");
         sem_post(&task->pick);
         continue;
       }
